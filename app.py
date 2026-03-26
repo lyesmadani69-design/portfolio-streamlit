@@ -295,19 +295,10 @@ with tab_skills:
 
     # 📸 Aperçu du rapport (capture PNG)
     st.image(
-        "assets/rapport_2025.png",
-        caption="Aperçu du rapport 2025",
+        "assets/dashboard_kpi.png",
+        caption="Aperçu du dashboard KPI",
         use_container_width=True,
     )
-
-    # 📥 Bouton pour télécharger le rapport complet en PDF
-    with open("assets/rapport_2025.pdf", "rb") as pdf_file:
-        st.download_button(
-            label="📥 Télécharger le rapport complet (PDF)",
-            data=pdf_file,
-            file_name="rapport_2025.pdf",
-            mime="application/pdf",
-        )
 
 
 # ===================== CONTACT (placeholder) =====================
